@@ -742,3 +742,51 @@ a, button {
         font-size: 1rem;
     }
 }
+
+/* Leadership & Impact Section */
+.leadership-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.leadership-item {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #e5e7eb;
+    border-left: 4px solid #2563eb;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, transform 0.2s;
+}
+
+.leadership-item:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+}
+
+.leadership-title {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 0.25rem;
+}
+
+.leadership-org {
+    font-size: 0.95rem;
+    color: #2563eb;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.leadership-date {
+    font-size: 0.8rem;
+    color: #6b7280;
+    margin-bottom: 0.75rem;
+}
+
+.leadership-desc {
+    font-size: 0.875rem;
+    color: #374151;
+    line-height: 1.6;
+}
