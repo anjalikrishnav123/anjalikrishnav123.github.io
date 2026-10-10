@@ -113,6 +113,41 @@ body {
     }
 }
 
+/* Name + Badge */
+.name-row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+}
+
+.name-row .name {
+    margin-bottom: 0;
+}
+
+.badge-link {
+    display: inline-flex;
+    transition: transform 0.2s;
+}
+
+.badge-link:hover {
+    transform: scale(1.08);
+}
+
+.cert-badge {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+}
+
+/* Center on mobile, since the bio text is centered there */
+@media (max-width: 767px) {
+    .name-row {
+        justify-content: center;
+    }
+}
+
 /* Sections */
 .section {
     padding: 4rem 1.5rem;
